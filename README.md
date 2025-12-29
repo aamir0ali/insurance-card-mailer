@@ -33,3 +33,48 @@ Built with **Python, Tkinter (ttkbootstrap), ReportLab, Pandas, and SMTP**.
 
 ## 📁 Project Structure
 
+
+insurance-card-mailer/
+│
+├── main.py # Main application
+├── README.md
+├── requirements.txt
+├── assets/
+│ ├── logo_left.png
+│ ├── logo_middle.png
+│ ├── logo_right.png
+│ └── card_back.png
+
+
+
+---
+
+## 📄 Excel Template Columns
+
+Required columns:
+
+| Column Name | Description |
+|------------|------------|
+| CardNumber | Member card number |
+| InsuredName | Member name |
+| Policyholder | Company name |
+| PolicyNumber | Policy number |
+| StartDate | Policy start date |
+| ExpiryDate | Policy expiry date |
+| DOB | Date of birth |
+| Gender | Gender |
+| Email | Member email |
+| SendEmail | Yes / No |
+| UniqueID | Auto-generated if empty |
+
+Use **Download Template** button in the app to get a ready-to-use Excel file.
+
+---
+
+## 🚀 How to Run
+
+### 1️⃣ Install dependencies
+```bash
+pip install -r requirements.txt
+
+
